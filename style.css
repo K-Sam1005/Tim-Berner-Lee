@@ -1,5 +1,5 @@
 body {
-
+    text-align: center;
     margin: 0px;
     padding-top: 800px;
 
@@ -69,15 +69,16 @@ p {
 
 .menu {
     list-style: none;
-    top:10px;
-    right:30px;
-    position:absolute;
+    top: 10px;
+    right: 30px;
+    position: absolute;
     font-family: 'Audiowide', cursive;
     font-size: 20px;
     z-index: 10;
     cursor: pointer;
 }
-.links{
+
+.links {
     float: left;
     padding-bottom: 9px;
     padding-left: 5px;
@@ -85,6 +86,19 @@ p {
     padding-right: 5px;
     color: deeppink;
 }
-.links:hover{
-    background-color:;
+
+.links:hover {
+    background-color: #EEFF41;
+}
+a{
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+.article:hover{
+    color: fuchsia;
+}
+.article{
+    font-size: 25px;
 }
